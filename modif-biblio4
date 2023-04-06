@@ -1,0 +1,5 @@
+
+classe AuteurDaoImpl ==> visibilité package
+
+création de la classe : ConnectionMySQLFactory  (visibilité package également)
+
