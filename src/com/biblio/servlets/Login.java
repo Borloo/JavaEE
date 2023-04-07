@@ -28,8 +28,6 @@ public class Login extends HttpServlet {
         if (username.equals("admin") && password.equals("admin")) {
             req.getSession().setAttribute("user", username);
             req.getServletContext().getRequestDispatcher("/index.jsp").forward(req, res);
-        } else {
-            res.sendRedirect("/index.jsp");
         }
     }
 }
